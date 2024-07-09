@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ffcc33, #ff6699);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.dashboard {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+
+.dashboard h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.dashboard h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.logout,
+.novaTarefa {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #ff6699;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.logout:hover,
+.novaTarefa:hover {
+    background-color: #ff3366;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+td {
+    background-color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+.editar,
+.deletar {
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.editar {
+    background-color: #4CAF50;
+}
+
+.editar:hover {
+    background-color: #45a049;
+}
+
+.deletar {
+    background-color: #f44336;
+}
+
+.deletar:hover {
+    background-color: #da190b;
+}
